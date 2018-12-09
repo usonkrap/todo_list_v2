@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+}
+
+.form input {
+  flex: 1;
+  font-size: 1.25rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ee5253;
+}
+
+.add-button {
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  background: #ee5253;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background: #ff6b6b;
+}

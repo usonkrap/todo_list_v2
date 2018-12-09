@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
+import TodoListTemplate from './components/TodoListTemplate';
+import Form from './components/Form'
+import TodoList from './components/TodoList';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-      </div>
+      <TodoListTemplate form={<Form />}>
+        <TodoList />
+      </TodoListTemplate>
     );
   }
 }
